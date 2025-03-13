@@ -1,7 +1,7 @@
 import pandas as pd
 from sklearn.linear_model import LinearRegression
 
-dataset = 'Housing.csv'
+dataset = 'dataset.csv'
 df = pd.read_csv(dataset)
 
 X = df[['area', 'parking']] 
